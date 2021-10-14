@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" metadata-complete="true" version="4.0">
+  <display-name>P2_RN1802_FOAM</display-name>
+  <servlet>
+    <servlet-name>VowelCounterServlet</servlet-name>
+    <servlet-class>edu.metrostate.ics425.mt.rn1802.controller.VowelCounterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VowelCounterServlet</servlet-name>
+    <url-pattern>/countVowels</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>vowelCounts.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
